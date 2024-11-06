@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>crypto website Sign In</title>
-  <link rel="stylesheet" href="sign-in.css">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crypto website Sign In</title>
+    <link rel="stylesheet" href="sign-in.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<form action="register.php" method="POST">
-  <h1>SIGN IN</h1>
+  <body>
+    <form action="register.php" method="get">
+      <h1>SIGN IN</h1>
 
-  <label for="">
-    <input type="text" name="" id="">
-    <span>USER ID</span>
-  </label>
-  
-  <label for="">
-    <input type="password" name="" id="">
-    <span>PASSWORD</span>
-  </label>
-  
- <input type="submit" value="Submit" class="btn">
- 
- <p class="para-2">
-  Not have an account? <a href="/sign-up/sign-up.html">Sign Up Here</a>
-</p>
+      <label for="userId">
+        <input type="text" name="user-id" id="userId" />
+        <span>USER ID</span>
+      </label>
 
-<div class="home-btn">
-  <a href="/index.html"><i class="ri-home-line"></i>Back To Home</a>
- </div>
+      <label for="user-password">
+        <input type="password" name="user-password" id="user-password" />
+        <span>PASSWORD</span>
+      </label>
 
-</form>
+      <input type="submit" value="Submit" class="btn" />
 
-</body>
+      <p class="para-2">
+        Not have an account? <a href="/sign-up/sign-up.html">Sign Up Here</a>
+      </p>
+
+      <div class="home-btn">
+        <a href="/index.html"><i class="ri-home-line"></i>Back To Home</a>
+      </div>
+    </form>
+  </body>
 </html>
